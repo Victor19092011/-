@@ -1,0 +1,56 @@
+ html{
+   scroll-behavior: smooth;
+ }
+ body{
+    font-family: 'StratosSkyeng', sans-serif;
+    background-image: url('images/back.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: bottom;
+ }
+ .header{
+    background-image: url('images/head.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+ }
+ .content{
+    padding-top: 75px;
+    border-top: 25px solid black;
+    position: relative;
+ }
+ table{
+    width: 1200px;
+    height: 100vh;
+    border-collapse: collapse;
+    margin: 0 auto;
+ }
+ img{
+     width: 560px;
+ }
+ tr, td{
+    border: 25px solid white;
+    text-align: center;
+    vertical-align: bottom;
+ }
+ p{
+   background-color: white;
+   font-size: 30px;
+   border-radius: 25px;
+   padding: 10px 30px;
+   width: max-content;
+   margin: 23px auto;
+ }
+ a{
+   display: block;
+   background-color: #894aff;
+   padding: 10px 30px;
+   font-size: 38px;
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   bottom: 75px;
+   right: 80px;
+   border-radius: 50px;
+ }
